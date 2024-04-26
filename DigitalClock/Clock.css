@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.digitalCLockContainer {
+    backdrop-filter: blur(6px);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.clock {
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 70px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.734);
+}
