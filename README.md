@@ -2,4 +2,4 @@
 ____________________________________________________
 <p>download the folder and save your react js satup and import the file </p>
 <p>import ClockJs from "./DigitalClock/Clock";</p>
-<p> and use simple  "<ClockJs/>" </p>
+
